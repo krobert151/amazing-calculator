@@ -19,7 +19,7 @@ public class IncredibleCalculator {
         switch (opcion) {
             case 1: suma(n1,n2);
                     break;
-            case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
+            case 2: resta(n1.n2);// Restar. Debes leer dos números enteros de entrada e imprimir su resta
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
                     break;

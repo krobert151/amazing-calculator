@@ -11,11 +11,13 @@ public class IncredibleCalculator {
         System.out.println("4. Dividir (división entera)");
         System.out.println("5. Dividir (división con decimales)");
 
+        int n1 = leerEnteroEntrada();
+        int n2 = leerEnteroEntrada();
         int opcion = leerEnteroEntrada();
 
 
         switch (opcion) {
-            case 1: //Sumar. Debes leer dos numeros enteros de entrada e imprimir su suma
+            case 1: suma(n1,n2);
                     break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
                     break;
